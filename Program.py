@@ -111,9 +111,8 @@ def plot_results(f, fname):
     plt.plot(x_vals, y_vals, label=r"$e^{-x} \cdot f(x)$")
     plt.title(f"Wykres funkcji podcałkowej ({fname})")
     plt.xlabel("x")
-    plt.ylabel(r"$e^{-x} \cdot f(x)$")
+    plt.ylabel("f(x)")
     plt.grid(True)
-    plt.legend()
     plt.tight_layout()
     plt.show()
 
